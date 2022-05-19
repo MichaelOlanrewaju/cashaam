@@ -81,6 +81,11 @@
     display: none;
   }
 
+  /* .hover-btn:hover{
+    background-color: #6e46af;
+    color: white;
+    border: none;
+  } */
 
   @media only screen and (max-width: 1080px) {
     .responsive-nav{
@@ -216,15 +221,16 @@
             <div class="section-heading section-heading--mobile-up-align-left gutter-bottom--reset">
 
 
-              <span class="text-slider-items" style="display: none;"> The platform
-                commerce is, built on </span>
+              <span class="text-slider-items" style="display: none;">Create Your Online Store In 5 Minute., Get Customers Anywhere In The World., Start Accepting International Payments Instantly.
+              </span>
 
               <h1 class="text-slider section-heading_heading heading--jumbo color-green-80 ui-home-hero_heading"></h1>
                 
 
 
-              <p class="section-heading__subhead heading--2 text-major gutter-bottom">Millions of the world&#39;s most
-                successful brands trust Shopify to sell, ship and process payments anywhere.</p>
+              <p class="section-heading__subhead heading--2 text-major gutter-bottom" style="font-size: 1rem;">Join Over 4,000+ businesses who trust 
+                Cashaam to sell online globally. 
+          You don’t need a U.S/UK Bank Account to get started.</p>
             </div>
             
                     
@@ -234,21 +240,30 @@
 
             
               <div class="homepage-hero__signup">
-                <form class="js-signup-inline marketing-form--inline" novalidate="novalidate"
-                  action="https://accounts.shopify.com/store-signup/setup" accept-charset="UTF-8" method="post">
+                
                   <div class="marketing-input-wrapper marketing-input-button-pair">
-                    <div class="marketing-input-button-pair__field-wrapper"><label
-                        class="marketing-label marketing-label--in-field marketing-label--floating marketing-input-button-pair__label"
-                        for="SignupEmail-832a">Email address</label><input autocomplete="email"
-                        placeholder="Enter your email address" aria-describedby="MessageId_7059" id="SignupEmail-832a"
-                        class="marketing-input-button-pair__input marketing-input marketing-input--floating" type="email"
-                        name="signup[email]" /><button
-                        class="marketing-button marketing-form__button marketing-input-button-pair__button start-free-trial__button"
-                        name="button" data-event-page="homepage" data-event-category="homepage"
-                        data-event-action="hero signup" data-event-label="email signup" aria-haspopup="dialog"
-                        type="submit">Start free trial</button></div>
+                    <div class="marketing-input-button-pair__field-wrapper">
+                     <a href="#">
+                      <button
+                      class="marketing-button marketing-form__button marketing-input-button-pair__button start-free-trial__button"
+                      name="button" data-event-page="homepage" data-event-category="homepage"
+                      data-event-action="hero signup" data-event-label="email signup" aria-haspopup="dialog"
+                      type="submit">Start Selling</button>
+
+                     </a>
+                      
+
+                     <a href="#demo-store" class="btn-hover">
+                      <button
+                      class="marketing-button marketing-form__button marketing-input-button-pair__button start-free-trial__button"
+                      name="button" data-event-page="homepage" data-event-category="homepage"
+                      data-event-action="hero signup" data-event-label="email signup" aria-haspopup="dialog"
+                      type="submit" style="background-color: white; border: 2px solid #6e46af;color: #6e46af;" id="hover-btn">View Demo Store</button>
+
+                     </a>
+                      </div>
                   </div><span class="marketing-form__messages" id="MessageId_7059"></span>
-                </form>
+                
                 <p class="marketing-form__fallback-cta text-center text-minor color-gray-80 text-left">Try Shopify free
                   for 14 days, no credit card&nbsp;required. By entering your email, you agree to receive marketing
                   emails&nbsp;from&nbsp;Shopify.</p>
@@ -258,9 +273,9 @@
             class="grid__item grid__item--mobile-up-full grid__item--desktop-up-7 grid__item--desktop-up-offset-1 text-center">
             <picture class="picture ui-home-hero__picture">
               <source
-                srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/home/hero/en/hero-product@tablet-dcee1276b5e044d7e201cd88922474aa3676c3133222b6946a578f01f5367589.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/home/hero/en/hero-product@tablet-2x-6fb8f8273499920e71b6936e6e50df2c765467ab5516d837f349c7bf50ebbde7.png 2x"
+                srcset="./image-head.png 1x, ./image-head.png 2x"
                 media="(min-width: 750px) and (max-width: 1079px), (min-width: 1280px)" /><img
-                srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/home/hero/en/hero-product@mobile-9be121f4c803c8501e1bade84a89e773f90fe67ac6b09c275ea19ce7e3d68e1c.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/home/hero/en/hero-product@mobile-2x-dffbad49d81827bc00fd083248d2b31861365818dab1c4e68a2628287c8922c1.png 2x"
+                srcset="./image-head.png 1x, ./image-head.png  2x"
                 alt="An illustration of Shopify commerce admin and analytics features" />
             </picture>
           </div>
@@ -274,7 +289,7 @@
               <div class="section-heading section-heading--mobile-up-align-left">
                 <h2 class="section-heading__heading heading--1 section-heading__heading--regular color-white">Bring your
                   business online</h2>
-                <div class="grid">
+                <div class="grid" id="demo-store">
                   <div class="grid__item grid__item--wide-up-9">
                     <p class="section-heading__subhead color-white">Create an ecommerce website backed by powerful tools
                       that help you find customers, drive sales, and manage your day-to-day.</p>
@@ -289,7 +304,7 @@
                   </div>
                 </div>
               </div>
-              <div class="example-merchants">
+              <div class="example-merchants" >
                 <div class="example-merchant">
                   <div class="block example-merchant__block">
                     <span class="image lazyload-image block__image" style="max-width: 267px; max-height: 472px;"><span
@@ -461,15 +476,15 @@
                 aria-describedby="Video-3ba1" aria-label="Video">
                 <div class="video__video-container"><video muted="muted" loop="loop" playsinline="playsinline"
                     data-autoplay="true" data-lazyload="true"
-                    data-poster="https://cdn.shopify.com/shopifycloud/brochure/assets/home/poster-sell-9a9415a0989001f51a3870a065e65b4cfaa5dbaa250288f60a7e5b6ba4f22394.jpg"
+                    data-poster="./everywhere.png"
                     data-event-page="homepage" data-event-category="homepage" data-event-action="sell"
                     data-event-label="video-toggle" class="video__video">
                     <source
-                      data-src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/sell-animation-desktop-1b186d853b04bce6dbc12bb63bd5bc4bc1ff60cd1a06fd12f85261c8acc66d0a.webm"
-                      type="video/webm" />
+                      data-src="./everywhere.png"
+                      type="image/png" />
                     <source
-                      data-src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/sell-animation-desktop-e91e64db2d38816861b2eb3243eb9d8b28225f47269954d9f257cc850bb2f33a.mp4"
-                      type="video/mp4" />
+                      data-src="./everywhere.png"
+                      type="image/png" />
                   </video></div><button
                   class="video__button video__button--play pillars-animation__button pillars-animation__button--sell"
                   data-event-page="homepage" data-event-category="homepage" data-event-action="sell"
@@ -494,7 +509,7 @@
                 aria-describedby="Video-b946" aria-label="Video">
                 <div class="video__video-container"><video muted="muted" loop="loop" playsinline="playsinline"
                     data-autoplay="true" data-lazyload="true"
-                    data-poster="https://cdn.shopify.com/shopifycloud/brochure/assets/home/poster-sell-9a9415a0989001f51a3870a065e65b4cfaa5dbaa250288f60a7e5b6ba4f22394.jpg"
+                    data-poster="./everywhere.png"
                     data-event-page="homepage" data-event-category="homepage" data-event-action="sell"
                     data-event-label="video-toggle" class="video__video">
                     <source
