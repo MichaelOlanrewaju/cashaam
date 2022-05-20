@@ -81,6 +81,12 @@
     display: none;
   }
 
+  #button_bottom{
+  display: none;
+  bottom: 0;
+  /* position: ; */
+}
+
   /* .hover-btn:hover{
     background-color: #6e46af;
     color: white;
@@ -91,7 +97,31 @@
     .responsive-nav{
     padding-left: 400px;
   }
+
+
 }
+
+@media only screen and (min-width: 200px) and (max-width:500px) {
+  
+#button_bottom{
+  display: block;
+  bottom: 0;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background-color: white;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+
+}
+
+.start-free-trial__button{
+    width: 100%;
+}
+
+}
+
+
 </style>
 </head>
 
@@ -208,11 +238,9 @@
 
   <div id="PageContainer">
     <main role="main" id="Main">
-      <script
-        src="https://cdn.shopify.com/shopifycloud/exp-verdict/js/92ddf9c10637af13f3bcc72daa3483c14f2920f6.js"></script>
+    
 
-
-      <section class="section section--tight ui-home-hero background-yellow-0" id="Hero">
+      <section class="section section--tight ui-home-hero background-yellow-0" id="Hero" style="background-color:#f5f4f9;">
         <div class="grid grid--equal-height grid--vertically-centered ui-home-hero__grid">
           <div
             class="grid__item grid__item--mobile-up-full grid__item--tablet-up-5 grid__item--desktop-up-4 ui-home-hero__content gutter-bottom--tablet-down">
@@ -221,7 +249,7 @@
             <div class="section-heading section-heading--mobile-up-align-left gutter-bottom--reset">
 
 
-              <span class="text-slider-items" style="display: none;">Create Your Online Store In 5 Minute., Get Customers Anywhere In The World., Start Accepting International Payments Instantly.
+              <span class="text-slider-items" style="display: none;">Create Your Online Store In 5 Minute., Get Customers Anywhere In The World., Start Accepting Payments Globally Instantly.
               </span>
 
               <h1 class="text-slider section-heading_heading heading--jumbo color-green-80 ui-home-hero_heading"></h1>
@@ -230,7 +258,7 @@
 
               <p class="section-heading__subhead heading--2 text-major gutter-bottom" style="font-size: 1rem;">Join Over 4,000+ businesses who trust 
                 Cashaam to sell online globally. 
-          You don’t need a U.S/UK Bank Account to get started.</p>
+          </p>
             </div>
             
                     
@@ -262,9 +290,25 @@
 
                      </a>
                       </div>
+
+
+                      <!-- fixed mobile button buttom -->
+                      <div class="marketing-input-wrapper marketing-input-button-pair" id="button_bottom">
+                        <div class="marketing-input-button-pair__field-wrapper">
+                         <a href="#">
+                          <button
+                          class="marketing-button marketing-form__button marketing-input-button-pair__button start-free-trial__button"
+                          name="button" data-event-page="homepage" data-event-category="homepage"
+                          data-event-action="hero signup" data-event-label="email signup" aria-haspopup="dialog"
+                          type="submit" style="font-size: 14px;">Start Selling</button>
+    
+                         </a>
+                         
+                          </div>
+                      </div>
                   </div><span class="marketing-form__messages" id="MessageId_7059"></span>
                 
-                <i class="marketing-form__fallback-cta text-center text-minor color-gray-80 text-left">No design skills or credit cards are required.
+                <i class="marketing-form__fallback-cta text-center text-minor color-gray-80 text-left">You don’t need a U.S/UK Bank Account to get started.
                 </i>
               </div>
           </div>
@@ -456,7 +500,7 @@
         </div>
       </section>
 
-      <section class="section homepage-pillars js-waypoint-track" data-track-name="pillars">
+      <section class="section homepage-pillars js-waypoint-track" data-track-name="pillars" style="background-color:#f5f4f9;">
         <div class="grid">
           <div class="section-heading pillars__heading-wrapper">
             <h2 class="section-heading__heading heading--1 section-heading__heading--regular">With you wherever you’re
@@ -1496,7 +1540,7 @@ if ($(".text-slider").length == 1) {
     var typed = new Typed(".text-slider", {
         strings: typed_strings.split(", "),
         typeSpeed: 30,
-        loop: true,
+        loop: false,
         backDelay: 900,
         backSpeed: 40,
         
