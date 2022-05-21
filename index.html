@@ -31,13 +31,17 @@
   <!-- <link rel="stylesheet" href=".bootstrap-icons/bootstrap-icons.css"> -->
 
   <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css"
+    integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+    crossorigin="anonymous"></script>
 
 
   <link rel="stylesheet" media="all" href="./css/main.css" />
@@ -83,6 +87,11 @@
   <script src="./lux.js" async defer crossorigin="anonymous"></script>
 
   <style>
+
+    body{
+      font-size: 14px;
+    }
+
     .responsive-nav {
       padding-left: 740px;
     }
@@ -124,6 +133,28 @@
       margin: 0 auto;
       order: 1;
     }
+    .start-block__icon {
+    fill: rgb(193, 240, 208);
+    width: 2.25em;
+    height: 2.25em;
+}
+.block__icon {
+    margin-bottom: 1em;
+}
+
+.icon--size-small {
+    width: 45px;
+    height: 45px;
+}
+
+.icon {
+    display: inline-block;
+    width: 0.8em;
+    height: 1em;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
 
     .omnichannel-testimonial__avatar img {
       max-width: 70%;
@@ -150,16 +181,115 @@
       padding: 32px 20px;
     }
 
+    .bg-grace-pink {
+      background-color: #F7EAE6;
+    }
 
+    .ui-toolkit .body-max-width {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
 
+    .ui-toolkit .col-group {
+      float: none;
+      position: relative;
+    }
 
+    .tiers-icon {
+      display: block;
+      width: 75px;
+      height: auto;
+    }
+    
+    h1.wt-text-body-01, h2.wt-text-body-01, h3.wt-text-body-01, h4.wt-text-body-01, h5.wt-text-body-01, h6.wt-text-body-01, p.wt-text-body-01, ul.wt-text-body-01, ol.wt-text-body-01, li.wt-text-body-01, label.wt-text-body-01, legend.wt-text-body-01 {
+    font-family: "Graphik Webfont",-apple-system,"Helvetica Neue","Droid Sans",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+    .ui-toolkit [class*='col-xs-'],
+    .ui-toolkit [class*='col-sm-'],
+    .ui-toolkit [class*='col-md-'],
+    .ui-toolkit [class*='col-lg-'],
+    .ui-toolkit [class*='col-xl-'] {
+      float: left;
+      width: 100%;
+    }
 
+    svg:not(:root) {
+      overflow: hidden;
+    }
+
+    h1.wt-text-heading-01,
+    h2.wt-text-heading-01,
+    h3.wt-text-heading-01,
+    h4.wt-text-heading-01,
+    h5.wt-text-heading-01,
+    h6.wt-text-heading-01,
+    p.wt-text-heading-01,
+    ul.wt-text-heading-01,
+    ol.wt-text-heading-01,
+    li.wt-text-heading-01,
+    label.wt-text-heading-01,
+    legend.wt-text-heading-01 {
+      font-family: "Guardian-EgypTT", Charter, "Charter Bitstream", Cambria, "Noto Serif Light", "Droid Serif", Georgia, serif;
+      font-weight: 300;
+      letter-spacing: 0.5px;
+      font-size: 24px;
+      line-height: 28px;
+    }
 
     /* responsiveness starts here */
+    @media only screen and (min-width: 0) {
+      .ui-toolkit .display-flex-xs {
+        display: flex !important;
+      }
+
+      .ui-toolkit .pr-xs-3 {
+        padding-right: 18px;
+      }
+    }
+
+
+    @media only screen and (min-width: 640px) {
+
+      h1.wt-text-heading-01,
+      h2.wt-text-heading-01,
+      h3.wt-text-heading-01,
+      h4.wt-text-heading-01,
+      h5.wt-text-heading-01,
+      h6.wt-text-heading-01,
+      p.wt-text-heading-01,
+      ul.wt-text-heading-01,
+      ol.wt-text-heading-01,
+      li.wt-text-heading-01,
+      label.wt-text-heading-01,
+      legend.wt-text-heading-01 {
+        font-size: 32px;
+        line-height: 36px;
+      }
+    }
 
     @media (min-width: 900px) {
       .omnichannel-testimonial {
         padding-left: 90px;
+      }
+
+      .ui-toolkit .pt-lg-8 {
+        padding-top: 48px;
+      }
+
+      .ui-toolkit .pb-lg-0 {
+        padding-bottom: 0px;
+      }
+
+      .ui-toolkit .col-group {
+        padding-left: 18px;
+        padding-right: 18px;
+      }
+
+      .ui-toolkit .mb-lg-0 {
+        margin-bottom: 0px;
       }
 
       .omnichannel-testimonial__inner {
@@ -233,10 +363,11 @@
         /* margin */
 
       }
+
       .omnichannel-testimonial__avatar img {
-      max-width: 100%;
-      height: auto;
-    }
+        max-width: 100%;
+        height: auto;
+      }
 
       #start-free-trial__button {
 
@@ -936,220 +1067,131 @@
       </section>
 
 
+      <!-- new testimnoial by segun -->
+      <div class="omnichannel-testimonial" style="background-color: #f5f4f9">
+        <div class="row">
 
-      <section class="section section--tight">
-        <div class="grid homepage-map">
-          <div class="grid__item homepage-map__heading-wrapper">
-            <div class="section-heading section-heading--mobile-up-align-left">
-              <h2 class="section-heading__heading heading--2 color-gray-90 gutter-bottom">Empowering independent
-                business owners&nbsp;everywhere</h2>
-              <p class="section-heading__subhead heading--3 color-gray-90 gutter-bottom">
-                Millions of businesses in <strong>175 countries</strong> around the world have made over <strong>$200
-                  billion USD</strong> in sales using&nbsp;Shopify.
-              </p> <a data-event-page="homepage" data-event-category="link" data-event-action="click-link-about-page"
-                data-event-label="learn-more-about-shopify" class="link link--secondary" href="about.html">Learn more
-                about Shopify&nbsp;<span class="link__arrow"><svg class="icon link__arrow-inner" aria-hidden="true"
-                    focusable="false">
-                    <use xlink:href="#modules-arrow-right" />
-                  </svg></span></a>
+          <div class="col-md-4 ">
+            <div class="omnichannel-testimonial__inner">
+              <!-- <div class="omnichannel-testimonial__avatar"> <img loading="lazy"
+                  src="https://don16obqbay2c.cloudfront.net/wp-content/themes/ecwid/images/omnichannel/chris-avatar.png"
+                  width="auto" height="auto" alt="<b>Chris Evertsen</b>, Karbon Speed"></div> -->
+              <div class="omnichannel-testimonial__author"> <b>Michael Olanrewaju</b>, Nigeria</div>
+              <div class="omnichannel-testimonial__text"> "I never imagined running a vintage shop could make me feel
+                like I was bringing joy into people’s homes, but that’s what I’ve come to experience. I love that it
+                feels like a very personal experience both as a shopper and seller."</div>
             </div>
           </div>
-          <div class="grid__item">
 
-            <div class="map-interactive map-interactive--homepage">
-              <div class="map__container">
-                <div class="map__fallback">
-                  <span class="image lazyload-image" style="max-width: 1337px; max-height: 650px;"><span
-                      class="lazyload-image__placeholder" style="padding-bottom: 48.6163%"><img alt=""
-                        data-sizes="100vw"
-                        data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/modules/map/map-fallback-small-cc55c939983003e5218ed07f624c0e0a10c844dc57367730288845c451b35e86.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/modules/map/map-fallback-large-4b38a92342c7101ac96f845270a46ea780ebbe755520e628012f6c969da308c7.png?quality=50 2x"
-                        class="lazyload" /><noscript><img sizes="100vw"
-                          srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/modules/map/map-fallback-small-cc55c939983003e5218ed07f624c0e0a10c844dc57367730288845c451b35e86.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/modules/map/map-fallback-large-4b38a92342c7101ac96f845270a46ea780ebbe755520e628012f6c969da308c7.png?quality=50 2x"
-                          alt="" /></noscript></span></span>
+          <div class="col-md-4 ">
+            <div class="omnichannel-testimonial__inner">
+              <!-- <div class="omnichannel-testimonial__avatar"> 
+                <img loading="lazy"
+                  src="https://don16obqbay2c.cloudfront.net/wp-content/themes/ecwid/images/omnichannel/chris-avatar.png"
+                  width="auto" height="auto" alt="<b>Chris Evertsen</b>, Karbon Speed"></div> -->
+              <div class="omnichannel-testimonial__author"> <b>Michael Olanrewaju</b>, Nigeria</div>
+              <div class="omnichannel-testimonial__text"> "I never imagined running a vintage shop could make me feel
+                like I was bringing joy into people’s homes, but that’s what I’ve come to experience. I love that it
+                feels like a very personal experience both as a shopper and seller."</div>
+            </div>
+          </div>
+
+          <div class="col-md-4 ">
+            <div class="omnichannel-testimonial__inner">
+              <!-- <div class="omnichannel-testimonial__avatar">
+                 <img loading="lazy"
+                  src="https://don16obqbay2c.cloudfront.net/wp-content/themes/ecwid/images/omnichannel/chris-avatar.png"
+                  width="auto" height="auto" alt="<b>Chris Evertsen</b>, Karbon Speed"></div> -->
+              <div class="omnichannel-testimonial__author"> <b>Michael Olanrewaju</b>, Nigeria</div>
+              <div class="omnichannel-testimonial__text"> "I never imagined running a vintage shop could make me feel
+                like I was bringing joy into people’s homes, but that’s what I’ve come to experience. I love that it
+                feels like a very personal experience both as a shopper and seller."</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- testimonial ends here -->
+
+      <div>
+        <div class="bg-grace-pink pt-xs-5 pb-xs-4 pt-md-3 pb-md-2 pt-lg-8 pb-lg-0 mt-xs-8">
+          <div class="body-max-width">
+            <div class="col-group">
+              <div class="col-lg-6 mb-xs-6 mb-lg-0">
+                <div class="display-flex-xs">
+                  <div class="pr-xs-3">
+                    <span class="inline-svg tiers-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 128"
+                        aria-hidden="true" focusable="false">
+                        <path fill="#F1641F"
+                          d="M34 61c-13 0-22 9-23 22v43l2 2h83c2 0 3-1 3-3V86l-43-4c-1-12-10-21-22-21z"></path>
+                        <path fill="#F1641F"
+                          d="M99 38V1l-2-1-41 38v44l43 4V38zM33 84c6 1 18-2 18-2h5c-1-12-10-21-22-21-13 0-23 10-23 22l7-1c4-1 8 1 15 2z">
+                        </path>
+                        <path fill="#F1641F" d="M99 1l-2-1-41 38s19 6 43 0V1z"></path>
+                        <path fill="#FA9F77" d="M57 113c0-8-3-21-1-31h-5s-12 3-18 2-11-3-15-2l-7 1v43l2 2h44v-15z">
+                        </path>
+                        <path fill="#F1641F" d="M57 113v15h39c2 0 3-1 3-3V86l-43-4c-2 10 1 23 1 31z"></path>
+                        <path fill="#CF4119" d="M56 38v44l43 4V38c-24 6-43 0-43 0z"></path>
+                      </svg></span>
+                  </div>
+                  <div>
+                    <p class="wt-text-heading-01">Standard</p>
+                    <p class="wt-text-body-01 mb-xs-1">Everything you need to start, manage, and grow a creative
+                      business</p>
+                    <p class="wt-text-title-01">No additional monthly charge</p>
+                  </div>
                 </div>
-
-                <div role="application" aria-labelledby="MapLabel" aria-describedby="MapDescription"
-                  class="map__globe-wrapper">
-                  <p class="visuallyhidden" id="MapLabel">
-                    Simulation of global sales
-                  </p>
-
-                  <p class="visuallyhidden" id="MapDescription">
-                    A slowly rotating globe shows green arcs traveling from one side of the earth to another. It
-                    illustrates Shopify’s international network of merchants and customers.
-                  </p>
-
-                  <div id="Map" class="map__canvas-container" data-start="northAmerica" data-no-rotate="true"></div>
-
-                  <div class="map__info">
-                    <button type="button" class="map__control map__control--pause">
-                      <div class="map__control-container">
-                        <svg class="icon map__control-icon" aria-hidden="true" focusable="false">
-                          <use xlink:href="#modules-pause" />
-                        </svg>
-
-                        <span class="visuallyhidden">
-                          Pause globe animation
-                        </span>
-                      </div>
-                    </button>
-                    <button type="button" class="map__control map__control--play">
-                      <div class="map__control-container">
-                        <svg class="icon map__control-icon" aria-hidden="true" focusable="false">
-                          <use xlink:href="#modules-play" />
-                        </svg>
-
-                        <span class="visuallyhidden">
-                          Resume globe animation
-                        </span>
-                      </div>
-                    </button>
+              </div>
+              <div class="col-lg-6 mb-xs-6 mb-lg-0">
+                <div class="display-flex-xs">
+                  <div class="pr-xs-3">
+                    <span class="inline-svg tiers-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 110 128"
+                        aria-hidden="true" focusable="false">
+                        <path fill="#FFC800"
+                          d="M105 30v-4a26 26 0 0 0-51-5l-1 4v1H10c-3 0-5 2-5 5v93c0 2 2 4 4 4h44V76l2 1h50V30"></path>
+                        <path fill="#FFC800" d="M53 128h48c2 0 4-2 4-5V77l-52 51z"></path>
+                        <path fill="#FDD95C" d="M53 77v-1c-3 0-14-1-25 1H5v47c0 2 2 4 4 4h44V77z"></path>
+                        <path fill="#FAA12A"
+                          d="M28 77c11-2 22-1 25-1 1-1 2-12 2-25 0-7-3-13-2-25H10c-3 0-5 2-5 5v46h23zM79 0C67 0 56 9 54 21l-1 4h3l4 6c8 0 23-5 23-5l22 4v-4c0-14-12-26-26-26z">
+                        </path>
+                        <path fill="#FFC800"
+                          d="M83 26s-15 5-23 5l-4-6h-3v1c-1 12 2 18 2 26 0 13-1 23-2 24l2 1h50V30l-22-4z"></path>
+                        <path fill="#FAA12A" d="M53 128h48c2 0 4-2 4-5V77l-52 51z"></path>
+                      </svg></span>
+                  </div>
+                  <div>
+                    <p class="wt-text-heading-01">Plus</p>
+                    <p class="wt-text-body-01 mb-xs-1">An expanded set of tools to help jump-start growth and express
+                      your brand</p>
+                    <p class="wt-text-title-01 strong mb-xs-1 mb-md-0">
+                      $10 <span class="normal display-inline-block">a month</span>
+                    </p>
                   </div>
                 </div>
               </div>
             </div>
-
           </div>
-        </div>
-      </section>
-
-      <!-- new testimnoial by segun -->
-      <div class="omnichannel-testimonial" style="background-color: #f5f4f9">
-        <div class="row">
-         
-          <div class="col-md-4 ">
-            <div class="omnichannel-testimonial__inner">
-              <div class="omnichannel-testimonial__avatar"> <img loading="lazy"
-                  src="https://don16obqbay2c.cloudfront.net/wp-content/themes/ecwid/images/omnichannel/chris-avatar.png"
-                  width="auto" height="auto" alt="<b>Chris Evertsen</b>, Karbon Speed"></div>
-              <div class="omnichannel-testimonial__author"> <b>Michael Olanrewaju</b>, Nigeria</div>
-              <div class="omnichannel-testimonial__text"> "I never imagined running a vintage shop could make me feel like I was bringing joy into people’s homes, but that’s what I’ve come to experience. I love that it feels like a very personal experience both as a shopper and seller."</div>
-            </div>
-          </div>
-
-          <div class="col-md-4 ">
-            <div class="omnichannel-testimonial__inner">
-              <div class="omnichannel-testimonial__avatar"> <img loading="lazy"
-                  src="https://don16obqbay2c.cloudfront.net/wp-content/themes/ecwid/images/omnichannel/chris-avatar.png"
-                  width="auto" height="auto" alt="<b>Chris Evertsen</b>, Karbon Speed"></div>
-              <div class="omnichannel-testimonial__author"> <b>Michael Olanrewaju</b>, Nigeria</div>
-              <div class="omnichannel-testimonial__text"> "I never imagined running a vintage shop could make me feel like I was bringing joy into people’s homes, but that’s what I’ve come to experience. I love that it feels like a very personal experience both as a shopper and seller."</div>
-            </div>
-          </div>
-
-          <div class="col-md-4 ">
-            <div class="omnichannel-testimonial__inner">
-              <div class="omnichannel-testimonial__avatar"> <img loading="lazy"
-                  src="https://don16obqbay2c.cloudfront.net/wp-content/themes/ecwid/images/omnichannel/chris-avatar.png"
-                  width="auto" height="auto" alt="<b>Chris Evertsen</b>, Karbon Speed"></div>
-              <div class="omnichannel-testimonial__author"> <b>Michael Olanrewaju</b>, Nigeria</div>
-              <div class="omnichannel-testimonial__text"> "I never imagined running a vintage shop could make me feel like I was bringing joy into people’s homes, but that’s what I’ve come to experience. I love that it feels like a very personal experience both as a shopper and seller."</div>
-            </div>
-          </div>
-        
-        </div>
-       
-
-       
-
-
-      <!-- <section class="section">
-        <div class="grid">
-          <div class="grid__item">
-            <div class="testimonial__wrapper">
-              <div class="featured-testimonial featured-testimonial--breakpoint-mobile">
-                <div class="featured-testimonial__image-wrapper">
-                  <picture class="picture featured-testimonial__image">
-                    <source
-                      data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/merchants/cee-cees-closet/cee-cees-closet-testimonial@desktop-5fc018d38a878b807f8a9997bb86f3ffc29f03d4323b0e32e30c424376e8ed31.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/merchants/cee-cees-closet/cee-cees-closet-testimonial@desktop-2x-cb4a6f534a90c99d8f0c8aea10df45b12d4ff9c236a09ab8f92fb9f2fdf2fee6.jpg 2x"
-                      media="(min-width: 1080px)" />
-                    <source
-                      data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/merchants/cee-cees-closet/cee-cees-closet-testimonial@tablet-d9d6d1e3471ca44410ba8bc84282ba73ac78172918ae113f2178be5e2a2a5255.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/merchants/cee-cees-closet/cee-cees-closet-testimonial@tablet-2x-4f41eeb78e56c71372157aac0179eea3ec415a5777d86d86405d773229145911.jpg 2x"
-                      media="(min-width: 750px)" /><img
-                      data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/merchants/cee-cees-closet/cee-cees-closet-testimonial@mobile-640168ee8370d0d49e0b56558ef63749445949d943a605cec391e702b64cfda6.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/merchants/cee-cees-closet/cee-cees-closet-testimonial@mobile-2x-fa815a517c766bed8fd29b4a720f163c6266ee3e4b2218fd80d5a32ceeb0ade3.jpg 2x"
-                      alt="" class="lazyload" />
-                  </picture>
-                </div>
-                <div class="featured-testimonial__content text-center">
-                  <blockquote class="featured-testimonial__quote-wrapper gutter-bottom">
-                    <p class="featured-testimonial__quote">“We’ve been able to build something in 3 years that a
-                      lot of brands haven’t actually gotten to in 10&nbsp;years.”</p><span
-                      class="image lazyload-image gutter-bottom" style="max-width: 146px; max-height: 69px;"><span
-                        class="lazyload-image__placeholder" style="padding-bottom: 47.2603%"><img alt=""
-                          data-sizes="100vw"
-                          data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/home/testimonials/logo-cee-cees-closet-small-bbc2baa973603b707c4d17c8ac77b35b9097174340d500cc757354a7d868c456.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/home/testimonials/logo-cee-cees-closet-large-006c2df10e19efd9878da9db6faa20b4164dd44f28a896735652ece6b715374b.png?quality=50 2x"
-                          class="lazyload" /><noscript><img sizes="100vw"
-                            srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/home/testimonials/logo-cee-cees-closet-small-bbc2baa973603b707c4d17c8ac77b35b9097174340d500cc757354a7d868c456.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/home/testimonials/logo-cee-cees-closet-large-006c2df10e19efd9878da9db6faa20b4164dd44f28a896735652ece6b715374b.png?quality=50 2x"
-                            alt="" /></noscript></span></span><cite class="featured-testimonial__citation">Chioma | Cee
-                      Cee’s Closet NYC</cite>
-                  </blockquote>
-                  <div class="featured-testimonial__video-wrapper"><button type="button"
-                      class="js-wistia-modal featured-testimonial__video-play-button marketing-button marketing-button--secondary"
-                      data-event-page="homepage" data-event-category="homepage" data-event-action="merchants"
-                      data-event-label="story" data-wistia-id="qfcu6lt69y"><svg
-                        class="icon icon--fill-white featured-testimonial__video-play-icon" aria-hidden="true"
-                        focusable="false">
-                        <use xlink:href="#modules-play" />
-                      </svg>Play Chioma and Uchenna’s&nbsp;story</button></div>
-                </div>
-              </div>
-
-              <p class="visuallyhidden">Brands that use Shopify</p>
-              <ul class="logo-soup">
-                <li class="logo-soup__list-item"><img class="image lazyload logo-soup__image" alt="Cee Cee&#39;s Closet"
-                    data-sizes="100vw"
-                    data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/cee-cees-closet-small-1d6b515579404482342748f0b67ff6e09836a47b648250d8d1b00e2a24b29faa.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/cee-cees-closet-large-72b3934735d6d9c80ab6e49bb691f0a499d3796886616ef7730d992b64348ca6.png?quality=50 2x" /><noscript><img
-                      sizes="100vw"
-                      srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/cee-cees-closet-small-1d6b515579404482342748f0b67ff6e09836a47b648250d8d1b00e2a24b29faa.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/cee-cees-closet-large-72b3934735d6d9c80ab6e49bb691f0a499d3796886616ef7730d992b64348ca6.png?quality=50 2x"
-                      alt="Cee Cee&#39;s Closet" class="image" /></noscript></li>
-                <li class="logo-soup__list-item"><img class="image lazyload logo-soup__image" alt="Nalata Nalata"
-                    data-sizes="100vw"
-                    data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/nalata-nalata-small-b5cd674cc9203997e3a72f2726c8aaa3d594a27c2f69001b4ad833939e9af5ce.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/nalata-nalata-large-eb37541ed2129ac52e1a6f45dff78a2689c78064d20f0d9b5605f8b4ed9d644f.png?quality=50 2x" /><noscript><img
-                      sizes="100vw"
-                      srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/nalata-nalata-small-b5cd674cc9203997e3a72f2726c8aaa3d594a27c2f69001b4ad833939e9af5ce.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/nalata-nalata-large-eb37541ed2129ac52e1a6f45dff78a2689c78064d20f0d9b5605f8b4ed9d644f.png?quality=50 2x"
-                      alt="Nalata Nalata" class="image" /></noscript></li>
-                <li class="logo-soup__list-item"><img class="image lazyload logo-soup__image" alt="Kirrin Finch"
-                    data-sizes="100vw"
-                    data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/kirrin-finch-small-b85f000eede1716da6a496a95ff3836b300b5beaa57617ab834332b675ede0d6.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/kirrin-finch-large-5eac21f691ca33865f5379e3c929f0455f2c60eac456acde2ecb5e7e8cf0b6b6.png?quality=50 2x" /><noscript><img
-                      sizes="100vw"
-                      srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/kirrin-finch-small-b85f000eede1716da6a496a95ff3836b300b5beaa57617ab834332b675ede0d6.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/kirrin-finch-large-5eac21f691ca33865f5379e3c929f0455f2c60eac456acde2ecb5e7e8cf0b6b6.png?quality=50 2x"
-                      alt="Kirrin Finch" class="image" /></noscript></li>
-                <li class="logo-soup__list-item"><img class="image lazyload logo-soup__image" alt="Tokyo Bike"
-                    data-sizes="100vw"
-                    data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/tokyo-bike-small-2295b7e1d183bae07eb36ad83451ec624cfe61bbec39e85877d40600f22115b2.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/tokyo-bike-large-e665c13f78f1ff857c63acfe106003071ab5789a56d98e06036cd552a11afb7c.png?quality=50 2x" /><noscript><img
-                      sizes="100vw"
-                      srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/tokyo-bike-small-2295b7e1d183bae07eb36ad83451ec624cfe61bbec39e85877d40600f22115b2.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/tokyo-bike-large-e665c13f78f1ff857c63acfe106003071ab5789a56d98e06036cd552a11afb7c.png?quality=50 2x"
-                      alt="Tokyo Bike" class="image" /></noscript></li>
-                <li class="logo-soup__list-item"><img class="image lazyload logo-soup__image" alt="Meso Goods"
-                    data-sizes="100vw"
-                    data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/meso-goods-small-d5c7243d2e6e1e1677b5648f1e672701476c5df7d516a131013a46c7721c98b4.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/meso-goods-large-3c91df696ae24868cf3158a03b219ad3d59e1cc79cd6bcfd5e00e4caf24f1590.png?quality=50 2x" /><noscript><img
-                      sizes="100vw"
-                      srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/meso-goods-small-d5c7243d2e6e1e1677b5648f1e672701476c5df7d516a131013a46c7721c98b4.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/meso-goods-large-3c91df696ae24868cf3158a03b219ad3d59e1cc79cd6bcfd5e00e4caf24f1590.png?quality=50 2x"
-                      alt="Meso Goods" class="image" /></noscript></li>
-                <li class="logo-soup__list-item"><img class="image lazyload logo-soup__image" alt="Coco and Breezy"
-                    data-sizes="100vw"
-                    data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/coco-and-breezy-small-3cc3c1f7d5c50000624adec29ce71dae453821ce3813f0e34b2d3351b5f2b4b2.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/coco-and-breezy-large-e7ffaba59d09afb9ecb7e12463cb72920817438c900b887209608c94fc9c9ec0.png?quality=50 2x" /><noscript><img
-                      sizes="100vw"
-                      srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/coco-and-breezy-small-3cc3c1f7d5c50000624adec29ce71dae453821ce3813f0e34b2d3351b5f2b4b2.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/coco-and-breezy-large-e7ffaba59d09afb9ecb7e12463cb72920817438c900b887209608c94fc9c9ec0.png?quality=50 2x"
-                      alt="Coco and Breezy" class="image" /></noscript></li>
-                <li class="logo-soup__list-item"><img class="image lazyload logo-soup__image" alt="Brooklyn Museum"
-                    data-sizes="100vw"
-                    data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/brooklyn-museum-small-3cbca35150e701329098cd95f21ec9388886479a5f781a515466b59d80d7b5bb.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/brooklyn-museum-large-14623fdd62a9c87241ee2d84b3e15feea4b30061839d0e20d1bd38a1d847286b.png?quality=50 2x" /><noscript><img
-                      sizes="100vw"
-                      srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/brooklyn-museum-small-3cbca35150e701329098cd95f21ec9388886479a5f781a515466b59d80d7b5bb.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/brooklyn-museum-large-14623fdd62a9c87241ee2d84b3e15feea4b30061839d0e20d1bd38a1d847286b.png?quality=50 2x"
-                      alt="Brooklyn Museum" class="image" /></noscript></li>
-                <li class="logo-soup__list-item"><img class="image lazyload logo-soup__image" alt="Adore Me"
-                    data-sizes="100vw"
-                    data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/adore-me-small-b4e6488ccabc61cdaaf92d931a5b8a591a35d55982a796a5b582924a9563afb1.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/adore-me-large-7a7f06a74d88d7a5e019800da52ccc54334c96159f3761173c0c5cd37e03e38d.png?quality=50 2x" /><noscript><img
-                      sizes="100vw"
-                      srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/adore-me-small-b4e6488ccabc61cdaaf92d931a5b8a591a35d55982a796a5b582924a9563afb1.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/adore-me-large-7a7f06a74d88d7a5e019800da52ccc54334c96159f3761173c0c5cd37e03e38d.png?quality=50 2x"
-                      alt="Adore Me" class="image" /></noscript></li>
-              </ul>
+          <div class="col-group text-center pt-xs-6">
+            <div class="col-xs-12 wt-text-caption wt-text-gray">
+              <div>Standard fees apply to all packages, including listing fees and the updated transaction fee.</div>
             </div>
           </div>
         </div>
-      </section> -->
-      <section class="section section--help background-yellow-0 js-waypoint-track" data-track-name="support">
+        <div class="ragged-edge-container fill-grace-pink icon-b-1" style="padding-bottom: 4.28%">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 60" preserveAspectRatio="none">
+            <path d="M1400 0H0v44l10 1 77-11 98 11 82-10 160 10 209-9 172 24 295-12 251 9 46-8z"></path>
+          </svg>
+        </div>
+      </div>
+
+
+
+
+
+
+      <section class="section section--help js-waypoint-track" data-track-name="support"
+        style="background-color: white;">
         <div class="grid">
           <div class="grid__item grid__item--tablet-up-two-thirds grid__item--desktop-up-half">
             <div class="section--help__content">
